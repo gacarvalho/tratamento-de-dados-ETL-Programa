@@ -1,4 +1,4 @@
-![Sobre: Título do projeto](https://github.com/gacarvalho/Projeto-ETL-Producao/blob/main/Image/Background-title.png)
+![Sobre: Título do projeto](https://github.com/gacarvalho/tratamento-de-dados-ETL-Programa/blob/main/Image/Background-title.png)
 
 # Tratamento de dados / Processo ETL na ferramenta Pentaho
   
@@ -19,7 +19,7 @@ A primeira etapa se basea na extração dos dados, sendo os formatos dos arquivo
  
  Nesta primeira etapa, foi necessários adicionar 2 steps que suportassem receber o formato de arquivo. Logo após, foi atribuido um step para receber os erros de dados do arquivo .xlsx 
  
- ![Sobre: Extração dos dados: GIF](https://github.com/gacarvalho/Projeto-ETL-Producao/blob/main/Image/Conhecendo%20a%20base%20de%20dados.gif)
+ ![Sobre: Extração dos dados: GIF](https://github.com/gacarvalho/tratamento-de-dados-ETL-Programa/blob/main/Image/Conhecendo%20a%20base%20de%20dados.gif)
  
  ## 📢  ETAPA 2 - TRANSFORMAÇÃO
  
@@ -32,11 +32,11 @@ A primeira etapa se basea na extração dos dados, sendo os formatos dos arquivo
   - [x] Unique rows
   - [x] Dummy 
   
-   ![Sobre: Extração dos dados: GIF](https://github.com/gacarvalho/Projeto-ETL-Producao/blob/main/Image/Conhecendo%20a%20base%20de%20dados_1.gif)
+   ![Sobre: Extração dos dados: GIF](https://github.com/gacarvalho/tratamento-de-dados-ETL-Programa/blob/main/Image/Transformacao%20dos%20dados.gif)
    
   ## 📢  ETAPA 3 - CARGAS
   
 Neste processo, após realizar as cargas e os tratamentos dos dados, é possível analisar a extração para a base de dados MySQl 🗃. Essa informações são armazenadas em tabelas dimensões no padrão não relacional; As informações que contém erro de tratamento de dados é extraido para uma base no servidor no formato .csv 
 
- ![Sobre: Extração dos dados: GIF](https://github.com/gacarvalho/Projeto-ETL-Producao/blob/main/Image/Conhecendo%20a%20base%20de%20dados_2.gif)
+ ![Sobre: Extração dos dados: GIF](https://github.com/gacarvalho/tratamento-de-dados-ETL-Programa/blob/main/Image/Extraindo%20os%20dados.gif)
   
